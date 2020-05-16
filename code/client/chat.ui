@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Chat</class>
+ <widget class="QDialog" name="Chat">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>638</width>
+    <height>613</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pb_sendChatMessage">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>510</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发送消息</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_selectHistoryChat">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>510</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>历史记录</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="qpte_chatMessage">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>380</y>
+     <width>541</width>
+     <height>111</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="tb_chatWindow">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>50</y>
+     <width>541</width>
+     <height>301</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_error">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>10</y>
+     <width>531</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_selectFile">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>560</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选择文件</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sendFile">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>560</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发送文件</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stopFile">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>680</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>暂停发送</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="resendFile">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>680</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>重新发送</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>720</y>
+     <width>571</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_flileMessage">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>650</y>
+     <width>491</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
